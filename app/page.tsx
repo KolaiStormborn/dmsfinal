@@ -16,6 +16,17 @@ export default function Home() {
                     bg-linear-to-r/srgb from-indigo-500 to-teal-400"
         >Cadastrar Aluno</p>
       </Link>
+      <Link href="/alunos/consulta">
+        <p 
+          className="text-center 
+                    rounded-lg 
+                    w-3xs
+                    mx-auto
+                    mt-4
+                    p-2
+                    bg-linear-to-r/srgb from-indigo-500 to-teal-400"
+        >Consultar Aluno</p>
+      </Link>
     </div>
   );
 }
